@@ -9,11 +9,13 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "importHelpers": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "allowImportingTsExtensions": false,
+    "noEmit": false
   },
   "include": [
-    "test",
-    "src"
+    "src",
+    "test"
   ],
   "files": [
     "src/resource.d.ts"

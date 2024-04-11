@@ -1,0 +1,17 @@
+@import 'resources/partials/_.scss';
+
+body {
+  main {
+    font-family: sans-serif;
+
+    nav {
+      a {
+        text-decoration: none;
+
+        &.active {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

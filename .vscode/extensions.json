@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "aureliaeffect.aurelia",
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
+    "orta.vscode-jest"
+  ]
+}

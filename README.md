@@ -1,37 +1,51 @@
-# my-app
+# aurelia2-bare-essentials
 
-This project is bootstrapped by [aurelia/new](https://github.com/aurelia/new).
+A light-weight, slightly modified [Aurelia 2](https://aurelia.io) project seed.
 
-## Start dev web server
+## Notes
 
-    npm start
+While this project was bootstrapped by [aurelia/new](https://github.com/aurelia/new) I have _made several changes_ outside the scope of the original release.
 
-## Build the app in production mode
+For example:
 
-    npm run build
+- Integration of [VS Code extensions](https://marketplace.visualstudio.com/VSCode) and related tools.
+- [SASS](https://sass-lang.com) support including markup examples.
+- **Removal of items not applicable to my workflow**.
 
-It builds all files to dist folder. To deploy to production server, copy all the `dist/*` files to production root folder.
+## Developers
 
-For example
-```
-dist/index.html
-dist/foo.12345.js
-```
-Copy to production root folder
-```
-root_folder/index.html
-root_folder/foo.12345.js
-```
+### CLI options
 
-## Unit Tests
+Run [ESLint](https://eslint.org) on project sources:
 
-    npm run test
+    $ npm run lint
 
-Run unit tests in watch mode.
+Transpile ES2017 sources (using [TypeScript](https://www.typescriptlang.org/docs/handbook/compiler-options.html)) and minify to a distribution:
 
-    npm run test:watch
+    $ npm run build
 
+Launch a development server instance accessible at [http://localhost:9000](http://localhost:9000)
 
-## Analyze webpack bundle
+    $ npm run start
 
-    npm run analyze
+Run [Jest](https://jestjs.io) integration tests:
+
+    $ npm run test
+
+## References
+
+- [The Aurelia 2 Docs](https://docs.aurelia.io)
+
+## Versioning
+
+This package is maintained under the [Semantic Versioning](https://semver.org) guidelines.
+
+## License and Warranty
+
+This package is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.
+
+_aurelia2-bare-essentials_ is provided under the terms of the [MIT license](http://www.opensource.org/licenses/mit-license.php)
+
+## Author
+
+[Marc S. Brooks](https://github.com/nuxy)
