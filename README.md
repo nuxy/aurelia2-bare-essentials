@@ -4,9 +4,7 @@ A light-weight, slightly modified [Aurelia 2](https://aurelia.io) project seed.
 
 ## Notes
 
-While this project was bootstrapped by [aurelia/new](https://github.com/aurelia/new) I have _made several changes_ outside the scope of the original release.
-
-For example:
+While this project was bootstrapped by [aurelia/new](https://github.com/aurelia/new), I have _made several changes_ outside the scope of the original release.  For example:
 
 - Integration of [VS Code extensions](https://marketplace.visualstudio.com/VSCode) and related tools.
 - [SASS](https://sass-lang.com) support including markup examples.
