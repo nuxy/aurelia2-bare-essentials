@@ -26,8 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "@aurelia/router": "latest",
-    "aurelia": "latest",
-    "slot-machine-gen": "latest"
+    "aurelia": "latest"
   },
   "devDependencies": {
     "@aurelia/ts-jest": "latest",
