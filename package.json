@@ -30,6 +30,7 @@
     "slot-machine-gen": "latest"
   },
   "devDependencies": {
+    "@aurelia/ts-jest": "latest",
     "@aurelia/webpack-loader": "latest",
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^7.4.0",
