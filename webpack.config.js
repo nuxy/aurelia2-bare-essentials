@@ -1,4 +1,5 @@
 const Dotenv                 = require('dotenv-webpack');
+const CopyWebpackPlugin      = require('copy-webpack-plugin');
 const HtmlWebpackPlugin      = require('html-webpack-plugin');
 const {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer');
 const {resolve}              = require('path');
@@ -64,7 +65,18 @@ module.exports = function(env, {analyze}) {
       ]
     },
     plugins: [
-      new HtmlWebpackPlugin({template: 'index.html', favicon: 'favicon.ico'}),
+      new HtmlWebpackPlugin({template: 'index.ejs', favicon: 'static/favicon.ico'}),
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            from: 'static',
+            to: resolve(__dirname, 'dist'),
+            globOptions: {
+              dot: false
+            }
+          }
+        ]
+      }),
       new Dotenv({path: `./.env${production ? '' : '.' + 'development'}`}),
       analyze && new BundleAnalyzerPlugin()
     ].filter(p => p),

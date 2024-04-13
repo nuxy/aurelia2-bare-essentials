@@ -8,6 +8,7 @@ While this project was bootstrapped by [aurelia/new](https://github.com/aurelia/
 
 - Integration of [VS Code extensions](https://marketplace.visualstudio.com/VSCode) and related tools.
 - [SASS](https://sass-lang.com) support including markup examples.
+- Separation of static assets from bundle.
 - **Removal of items not applicable to my workflow**.
 
 ## Developers
