@@ -11,7 +11,8 @@
     "importHelpers": true,
     "sourceMap": true,
     "allowImportingTsExtensions": false,
-    "noEmit": false
+    "noEmit": false,
+    "isolatedModules": true
   },
   "include": [
     "src",
