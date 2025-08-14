@@ -48,7 +48,13 @@ module.exports = function(env, {analyze}) {
         },
         {
           test: /\.scss$/i,
-          use: ['style-loader', 'css-loader', 'sass-loader', {
+          use: ['style-loader', 'css-loader', {
+            loader: 'sass-loader',
+            options: {
+              api: "modern-compiler"
+            }
+          },
+          {
             loader: 'postcss-loader',
             options: {
               postcssOptions: {
