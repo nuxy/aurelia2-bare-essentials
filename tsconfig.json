@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "module": "esnext",
     "moduleResolution": "node",
     "skipLibCheck": true,
@@ -9,10 +7,8 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "importHelpers": true,
-    "sourceMap": true,
-    "allowImportingTsExtensions": false,
-    "noEmit": false,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "sourceMap": true
   },
   "include": [
     "src",

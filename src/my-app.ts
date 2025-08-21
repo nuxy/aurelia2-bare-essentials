@@ -1,15 +1,17 @@
-import {IRouteableComponent, IRoute} from '@aurelia/router';
+import {route} from '@aurelia/router';
 
 // Local modules.
 import {Home} from './screens/home';
 
-export class MyApp implements IRouteableComponent {
-  static routes: IRoute[] = [
+@route({
+  routes: [
     {
       id: 'home',
       path: ['', 'home'],
       component: Home,
       title: 'Home'
     }
-  ];
-}
+  ]
+})
+
+export class MyApp {}
