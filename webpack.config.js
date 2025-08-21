@@ -43,10 +43,6 @@ module.exports = function(env, {analyze}) {
           exclude: /node_modules/
         },
         {
-          test: /\.css$/i,
-          use: ['style-loader', 'css-loader']
-        },
-        {
           test: /\.scss$/i,
           use: ['style-loader', 'css-loader', {
             loader: 'sass-loader',
