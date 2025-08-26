@@ -80,6 +80,9 @@
     "collectCoverageFrom": [
       "src/**/*.ts",
       "!src/**/*.d.ts"
+    ],
+    "coveragePathIgnorePatterns": [
+      "src/main.ts"
     ]
   }
 }
