@@ -7,11 +7,12 @@ import {Home} from './screens/home';
   routes: [
     {
       id: 'home',
-      path: ['', 'home'],
+      path: ['home'],
       component: Home,
       title: 'Home'
     }
-  ]
+  ],
+  fallback: Home
 })
 
 export class MyApp {}
