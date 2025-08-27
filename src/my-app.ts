@@ -7,12 +7,12 @@ import {Home} from './screens/home';
   routes: [
     {
       id: 'home',
-      path: ['home'],
+      path: ['', 'home'], // entry
       component: Home,
       title: 'Home'
     }
   ],
-  fallback: Home
+  fallback: Home // 404 fallback
 })
 
 export class MyApp {}
