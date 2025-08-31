@@ -19,7 +19,8 @@ module.exports = function(env, {analyze}) {
     },
     resolve: {
       extensions: ['.ts', '.js'],
-      modules: [resolve(__dirname, 'src'), 'node_modules']
+      modules: [resolve(__dirname, 'src'), 'node_modules'],
+      symlinks: false
     },
     devServer: {
       static: {directory: __dirname},
