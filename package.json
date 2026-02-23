@@ -84,5 +84,8 @@
     "coveragePathIgnorePatterns": [
       "src/main.ts"
     ]
+  },
+  "overrides": {
+    "minimatch": "10.2"
   }
 }
